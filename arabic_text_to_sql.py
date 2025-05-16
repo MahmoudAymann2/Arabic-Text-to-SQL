@@ -199,7 +199,7 @@ print(json.dumps(train_data[10], ensure_ascii=False, indent=2))
 
 from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
 from huggingface_hub import login
-login("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")
+login("YOUR-TOKEN-HERE")
 
 !pip install -q datasets peft accelerate trl
 
